@@ -1,0 +1,62 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frame {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 960px;
+
+}
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border:3px solid black;
+
+}
+
+#screen {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90px;
+    font-size: 80px;
+    background-color: rgb(172, 252, 205);
+    
+}
+
+button {
+
+    height: 90px;
+    width: 90px;
+    background-color: rgb(48, 184, 154);
+    border-radius: 10px;
+}
+
+#zerobutton {
+
+    width: 184px;
+}
+
+#acbutton , #posnegbutton , #percbutton {
+
+    background-color: aqua;
+}
+
+#divbutton , #mulbutton , #minusbutton , #addbutton , #equalbutton {
+
+    background-color: coral;
+}
