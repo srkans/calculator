@@ -4,57 +4,58 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../calculator/style.css">
     <script src="../calculator/script.js" defer></script>
+    <title>Calculator</title>
 </head>
 <body>
     <div class="frame">
         <div class="container">
             <div class = "display">
 
-                <div id="screen">0</input>
+                <div id="display">0</input>
 
             </div>
 
-            <div class ="buttons-firstline">
+            <div class ="buttons-firstline ">
 
-                <button id="acbutton" type="button">AC</button>
-                <button id="posnegbutton" type="button">+/-</button>
-                <button id="percbutton" type="button">%</button>
-                <button id="divbutton" type="button">/</button>
+                <button id="acbutton" type="button" class="clear" value="clear" data-key="8">AC</button>
+                <button id="posnegbutton" type="button" class="sign" value="sign" data-key="192">+/-</button>
+                <button id="percbutton" type="button" class="percent" value="percent" data-key="80">%</button>
+                <button id="divbutton" type="button" class="operator" value="/" data-key="68">/</button>
 
             </div>
 
             <div class = "buttons-secondline">
 
-                <button id="sevenbutton" type="button">7</button>
-                <button id="eightbutton" type="button">8</button>
-                <button id="ninebutton" type="button">9</button>
-                <button id="mulbutton" type="button">*</button>
+                <button id="sevenbutton" type="button" class="operand" value="7" data-key="55">7</button>
+                <button id="eightbutton" type="button" class="operand" value="8" data-key="56">8</button>
+                <button id="ninebutton" type="button" class="operand" value="9" data-key="57">9</button>
+                <button id="mulbutton" type="button"  class="operator" value="*" data-key="88">*</button>
 
             </div>
 
             <div class = "buttons-thirdline">
 
-                <button id="fourbutton" type="button">4</button>
-                <button id="fifebutton" type="button">5</button>
-                <button id="sixbutton" type="button">6</button>
-                <button id="minusbutton" type="button">-</button>
+                <button id="fourbutton" type="button" class="operand" value="4" data-key="52">4</button>
+                <button id="fifebutton" type="button" class="operand" value="5" data-key="53">5</button>
+                <button id="sixbutton" type="button" class="operand" value="6" data-key="54">6</button>
+                <button id="minusbutton" type="button" class="operator" value="-" data-key="173">-</button>
 
             </div>
 
             <div class="buttons-fourthline">
 
-                <button id="onebutton" type="button">1</button>
-                <button id="twobutton" type="button">2</button>
-                <button id="threebutton" type="button">3</button>
-                <button id="addbutton" type="button">+</button>
+                <button id="onebutton" type="button" class="operand" value="1" data-key="49">1</button>
+                <button id="twobutton" type="button" class="operand" value="2" data-key="50">2</button>
+                <button id="threebutton" type="button" class="operand" value="3" data-key="51">3</button>
+                <button id="addbutton" type="button" class="operator" value="+" data-key="61">+</button>
 
             </div>
 
             <div class = "buttons-fifthline">
 
-                <button id="zerobutton" type="button">0</button>
-                <button id="dotbutton" type="button">.</button>
-                <button id="equalbutton" type="button">=</button>
+                <button id="zerobutton" type="button" class="operand" value="0" data-key="48">0</button>
+                <button id="dotbutton" type="button" class="decimal" value="." data-key="190">.</button>
+                <button id="equalbutton" type="button" class="equals" value="=" data-key="69">=</button>
 
             </div>
 
